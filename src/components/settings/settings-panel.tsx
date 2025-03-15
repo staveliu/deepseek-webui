@@ -37,8 +37,8 @@ export function SettingsPanel() {
           tooltip="选择要使用的 DeepSeek 模型"
         >
           <Select>
-            <Select.Option value="chat">DeepSeek Chat</Select.Option>
-            <Select.Option value="coder">DeepSeek Coder</Select.Option>
+            <Select.Option value="Qwen/QwQ-32B">千问QwQ</Select.Option>
+            <Select.Option value="Pro/deepseek-ai/DeepSeek-R1">DeepSeek R1满血</Select.Option>
             <Select.Option value="reasoner">DeepSeek Reasoner</Select.Option>
           </Select>
         </Form.Item>
